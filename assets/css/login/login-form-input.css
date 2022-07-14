@@ -1,0 +1,11 @@
+.login__form-input{
+    border-radius: 5px;
+    color: #A2A2A2;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    height: 50px;
+    margin: 0.5rem 0;
+    text-align: center;
+    width: 420px;
+}
