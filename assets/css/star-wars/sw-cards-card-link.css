@@ -1,0 +1,8 @@
+.starwars__cards__card-link{
+    color: #2A7AE4;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    text-decoration: none;
+}

@@ -1,0 +1,12 @@
+.header__login{
+    color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1rem 4rem;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.header__login:hover{
+    background-color: #a0c5f5;
+}

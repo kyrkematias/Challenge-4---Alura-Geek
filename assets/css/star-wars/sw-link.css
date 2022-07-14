@@ -1,0 +1,17 @@
+.starwars__link{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.starwars__link-txt{
+    color: #2A7AE4;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.starwars__link-i{
+    color: #2A7AE4;
+    margin-left: 0.5rem;
+}

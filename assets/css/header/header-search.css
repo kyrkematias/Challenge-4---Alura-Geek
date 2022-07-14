@@ -1,0 +1,13 @@
+.header__search{
+    align-items: center;
+    background: #F5F5F5;
+    box-sizing: border-box;
+    border-radius: 30px;
+    border: solid #A2A2A2 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40px;
+    padding: 8px;
+    width: 300px;
+}

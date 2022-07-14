@@ -1,0 +1,17 @@
+.banner__link{
+    background: #2A7AE4;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 1rem;
+    padding: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+    width: 130px;
+}
+
+.banner__link:hover{
+    background: #69a5f5;
+}

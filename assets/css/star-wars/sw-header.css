@@ -1,0 +1,8 @@
+.starwars__header{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-weight: 700;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
