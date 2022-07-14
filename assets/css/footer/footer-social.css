@@ -1,0 +1,14 @@
+.footer__social-link{
+    color: #2A7AE4;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+@media screen and(max-width: 600px){
+    .footer__social{
+        align-self: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}

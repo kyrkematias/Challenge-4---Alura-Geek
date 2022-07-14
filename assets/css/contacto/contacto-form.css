@@ -1,0 +1,33 @@
+.contacto__form{
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+}
+
+.contacto__form__form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto__form-nombre{
+    border-radius: 5px;
+    color: #A2A2A2;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    height: 50px;
+    margin: 0.5rem 0;
+    text-align: center;
+    width: 100%;
+}
+
+.contacto__form-ta{
+    border-radius: 5px;
+    color: #A2A2A2;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    height: 85px;
+    margin: 0.5rem 0;
+    text-align: center;
+    resize: none;
+    width: 100%;
+}
