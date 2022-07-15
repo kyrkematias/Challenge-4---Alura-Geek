@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alura Geek | Login</title>
+    <title>Agregar productos | Alura Geek</title>
     <link rel="icon" type="image/png" href="/assets/imagenes/favicon.png"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,14 +13,10 @@
     <link rel="stylesheet" href="assets/css/header/header-icon.css">
     <link rel="stylesheet" href="assets/css/header/header-input.css">
     <link rel="stylesheet" href="assets/css/header/header-left.css">
+    <link rel="stylesheet" href="assets/css/header/header-login.css">
     <link rel="stylesheet" href="assets/css/header/header-search.css">
     <link rel="stylesheet" href="assets/css/header/header-title.css">
     <link rel="stylesheet" href="assets/css/header/header.css">
-    <link rel="stylesheet" href="assets/css/login/login.css">
-    <link rel="stylesheet" href="assets/css/login/login-form.css">
-    <link rel="stylesheet" href="assets/css/login/login-title.css">
-    <link rel="stylesheet" href="assets/css/login/login-form-input.css">
-    <link rel="stylesheet" href="assets/css/login/login-form-btn.css">
     <link rel="stylesheet" href="assets/css/contacto/contacto-form-btn.css">
     <link rel="stylesheet" href="assets/css/contacto/contacto-form-title.css">
     <link rel="stylesheet" href="assets/css/contacto/contacto-form.css">
@@ -30,28 +26,38 @@
     <link rel="stylesheet" href="assets/css/footer/footer-social.css">
     <link rel="stylesheet" href="assets/css/footer/footer-titulo.css">
     <link rel="stylesheet" href="assets/css/footer/footer.css">
+    <link rel="stylesheet" href="assets/css/login/login.css">
+    <link rel="stylesheet" href="assets/css/login/login-form.css">
+    <link rel="stylesheet" href="assets/css/login/login-title.css">
+    <link rel="stylesheet" href="assets/css/login/login-form-input.css">
+    <link rel="stylesheet" href="assets/css/login/login-form-btn.css">
+    <link rel="stylesheet" href="assets/css/add/add.css">
+    <link rel="stylesheet" href="assets/css/add/add-title.css">
+    <link rel="stylesheet" href="assets/css/add/add-form.css">
+    <link rel="stylesheet" href="assets/css/add/add-form-input.css">
+    <link rel="stylesheet" href="assets/css/add/add-form-btn.css">
 </head>
 <body>
-    <header class="header">
-        <div class="header__left">
-            <a href="index.html" class="header__left-link">
-                <img src="assets/imagenes/joystick.png" alt="" srcset="">
-                <p class="header__title-alura">Alura</p>
-                <p class="header__title-geek">Geek</p>
-            </a>
-            <div class="header__search">
-                <input type="text" placeholder="¿Qué deseas buscar?" class="header__input">
-                <i class="fa-solid fa-magnifying-glass header__icon"></i>
-            </div>
-        </div>
-    </header>
     <main>
-        <section class="login">
-            <h3 class="login__title">Iniciar Sesión</h3>
-            <form action="" class="login__form">
-                <input type="text" placeholder="Escriba su correo electrónico" class="login__form-input">
-                <input type="password" placeholder="Escriba su contraseña" class="login__form-input">
-                <a href="productos.html" class="login__form-btn-a">Entrar</a>
+        <header class="header">
+            <div class="header__left">
+                <a href="index.html" class="header__left-link">
+                    <img src="assets/imagenes/joystick.png" alt="" srcset="">
+                    <p class="header__title-alura">Alura</p>
+                    <p class="header__title-geek">Geek</p>
+                </a>
+            </div>
+            <a href="productos.html" class="header__login">Menú administrador</a>
+        </header>
+        <section class="add">
+            <h3 class="add__title">Agregar nuevo producto</h3>
+            <form action="" class="add__form">
+                <input type="text" placeholder="URL de la imagen" class="add__form-input">
+                <input type="text" placeholder="Categoria" class="add__form-input">
+                <input type="text" placeholder="Nombre del producto" class="add__form-input">
+                <input type="text" placeholder="Precio del producto" class="add__form-input">
+                <textarea name="" id="" cols="30" rows="10" class="contacto__form-ta">Descripcion del producto</textarea>
+                <a href="" class="add__form-btn-a">Agregar producto</a>
                 <!--<button type="submit" class="login__form-btn">Entrar</button>-->
             </form>
         </section>
