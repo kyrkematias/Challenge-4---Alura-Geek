@@ -12,3 +12,15 @@
     background: #69a5f5;
 }
 
+.login__form-btn-a{
+    background: #2A7AE4;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    padding: 1.5rem 0;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
