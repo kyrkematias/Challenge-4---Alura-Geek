@@ -1,11 +1,14 @@
 .add__form-btn-a{
+    align-self: flex-start;
     background: #2A7AE4;
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     padding: 1.5rem 0;
     cursor: pointer;
+    margin: 3rem 0;
     text-align: center;
     text-decoration: none;
     transition: 0.5s;
+    width: 350px;
 }
