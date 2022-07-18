@@ -6,3 +6,16 @@
     justify-content: space-between;
     padding: 1rem 2.5rem;
 }
+
+@media (min-width: 768px) and (max-width: 992px){
+    .header{
+        padding: 1rem 1rem;
+    }
+}
+
+@media (max-width: 600px){
+    .header{
+        flex-direction: column-reverse;
+        padding: 1rem 1rem;
+    }
+}

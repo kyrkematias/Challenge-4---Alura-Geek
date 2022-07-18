@@ -31,3 +31,16 @@
     resize: none;
     width: 100%;
 }
+
+@media (max-width: 600px){
+    .contacto__form{
+        order: -1;
+        width: 100%;
+    }
+    .contacto__form-nombre{
+        width: auto;
+    }
+    .contacto__form-ta{
+        width: auto;
+    }
+}

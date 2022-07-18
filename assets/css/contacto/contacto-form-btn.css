@@ -15,3 +15,9 @@
 .contacto__form-btn:hover{
     background: #69a5f5;
 }
+
+@media (max-width: 600px){
+    .contacto__form-btn{
+        margin: 1rem 0 2.5rem 0;
+    }
+}

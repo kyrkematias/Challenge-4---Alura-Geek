@@ -4,3 +4,9 @@
     color: #A2A2A2;;
     font-family: 'Montserrat', sans-serif;
 }
+
+@media (max-width: 600px){
+    .header__input{
+        display: none;
+    }
+}

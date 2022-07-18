@@ -12,3 +12,9 @@
     font-weight: 700;
     margin-right: 30px;
 }
+
+@media (max-width: 600px){
+    .header__title-geek{
+        margin-right: auto;
+    }
+}

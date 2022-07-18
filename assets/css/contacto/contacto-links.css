@@ -1,3 +1,11 @@
-.contacto__links{
-    
+@media (min-width: 768px) and (max-width: 992px){
+    .contacto__links{
+        margin: 2rem 0;
+    }
+}
+
+@media (max-width: 600px){
+    .contacto__links{
+        margin: 2rem 0;
+    }
 }

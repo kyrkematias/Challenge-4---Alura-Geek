@@ -2,3 +2,9 @@
     background: url(../../imagenes/banner.jpg) no-repeat  center/ cover;
     height: 352px;
 }
+
+@media (max-width: 600px){
+    .banner{
+        height: 60vh;
+    }
+}

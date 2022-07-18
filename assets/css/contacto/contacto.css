@@ -6,3 +6,17 @@
     justify-content: space-between;
     padding: 5rem;
 }
+
+@media (min-width: 768px) and (max-width: 992px){
+    .contacto{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 600px){
+    .contacto{
+        align-items: center;
+        flex-direction: column;
+        padding: 2.5rem 1rem;
+    }
+}

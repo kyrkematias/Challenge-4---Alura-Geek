@@ -10,3 +10,10 @@
 .header__login:hover{
     background-color: #a0c5f5;
 }
+
+@media (max-width: 600px){
+    .header__login{
+        order: -1;
+        padding: 1rem 3rem;
+    }
+}

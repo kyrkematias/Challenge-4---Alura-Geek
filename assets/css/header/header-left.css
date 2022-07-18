@@ -10,3 +10,9 @@
     flex-direction: row;
     text-decoration: none;
 }
+
+@media (max-width: 600px){
+    .header__left{
+        justify-content: space-around;
+    }
+}
