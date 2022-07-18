@@ -7,5 +7,6 @@
 @media (max-width: 600px){
     .starwars__cards{
         flex-wrap: wrap;
+        justify-content: space-around;
     }
 }

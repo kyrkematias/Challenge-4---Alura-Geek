@@ -2,3 +2,10 @@
     height: 174px;
     width: 176px;
 }
+
+@media (max-width: 400px){
+    .starwars__cards__card-img{
+        height: 140px;
+        width: 140px;
+    }
+}
