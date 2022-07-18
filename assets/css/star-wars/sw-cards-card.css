@@ -13,4 +13,7 @@
     .last{
         display: none;
     }
+    .starwars__cards__card{
+        margin: 1rem 0;
+    }
 }
