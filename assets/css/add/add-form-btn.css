@@ -12,3 +12,10 @@
     transition: 0.5s;
     width: 350px;
 }
+
+@media (max-width: 600px){
+    .add__form-btn-a{
+        align-self: center;
+        width: 63vw;
+    }
+}

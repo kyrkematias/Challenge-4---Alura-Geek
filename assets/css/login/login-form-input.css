@@ -9,3 +9,10 @@
     text-align: center;
     width: 420px;
 }
+
+@media (max-width: 600px){
+    .login__form-input{
+        align-self: center;
+        width: 85%;
+    }
+}

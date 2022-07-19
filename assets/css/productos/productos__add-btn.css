@@ -12,3 +12,10 @@
 .productos__add-btn:hover{
     background: #69a5f5;
 }
+
+@media (max-width: 600px){
+    .productos__add-btn{
+        padding: 1rem;
+        text-align: center;
+    }
+}

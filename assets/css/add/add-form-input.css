@@ -9,3 +9,14 @@
     text-align: center;
     width: 100%;
 }
+
+@media (max-width: 600px){
+    .add__form-input{
+        align-self: center;
+        width: auto;
+    }
+    .add__form-ta{
+        align-self: center;
+        width: 63vw;
+    }
+}

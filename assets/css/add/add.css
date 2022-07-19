@@ -7,3 +7,9 @@
     justify-content: center;
     width: 100%;
 }
+
+@media (max-width: 600px){
+    .add{
+        max-width: 100vw;
+    }
+}
